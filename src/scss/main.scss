@@ -1,0 +1,13 @@
+@import './page.scss';
+@import './responsive.scss';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        user-select: none;
+    }
+}

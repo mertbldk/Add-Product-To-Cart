@@ -1,0 +1,42 @@
+/*M*/
+@media screen and (min-width:768px) and (max-width:991px){
+    
+    #container{
+        #cardContainer{
+            width: 60%;
+        }
+        #basketContainer{
+            width: 40%;
+        }
+    }
+
+}
+/*S*/
+@media screen and (min-width:576px) and (max-width:767px){
+    
+    #container{
+        #cardContainer{
+            width: 50%;
+        }
+        #basketContainer{
+            width: 50%;
+        }
+    }
+
+}
+/*XS*/
+@media screen and (max-width:575px){
+    
+    #container{
+        flex-direction: column;
+        #cardContainer{
+            width: 100%;
+        }
+        #basketContainer{
+            position: initial;
+            width: 100%;
+            height: 75vh;
+        }
+    }
+
+}
